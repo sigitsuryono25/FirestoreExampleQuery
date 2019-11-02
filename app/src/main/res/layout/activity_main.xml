@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="@dimen/cardview_default_elevation"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/form_username"
+        android:inputType="textEmailAddress" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/form_password"
+        android:inputType="textVisiblePassword" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register"
+        style="?buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/register" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getData"
+        style="?buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Grab the data" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getDataAsList"
+        style="?buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Grab all data" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getDataOrderBy"
+        style="?buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Grab all data with Order By" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getDataWithLimit2"
+        style="?buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Grab data With Limit 2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getDataRealtime"
+        style="?buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Grab Real Time data " />
+</LinearLayout>

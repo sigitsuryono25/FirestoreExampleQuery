@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "415096800776",
+    "firebase_url": "https://webchatfirebase-520fc.firebaseio.com",
+    "project_id": "webchatfirebase-520fc",
+    "storage_bucket": "webchatfirebase-520fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415096800776:android:0a8e02242babe65b46b3bd",
+        "android_client_info": {
+          "package_name": "com.surelabs.firebase.chat.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415096800776-ueoafper26rrjhtq0aj0sqnuhvi7ap7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.surelabs.firebase.chat.example",
+            "certificate_hash": "9e3722661b650e6ca87f541bf8cc5734f071ddd9"
+          }
+        },
+        {
+          "client_id": "415096800776-1131kufgm6jtg990ahpoddb7a5b6fvnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaHPgyt9MZBXZyCeONWZdAvU95ozz0EoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415096800776-1131kufgm6jtg990ahpoddb7a5b6fvnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
